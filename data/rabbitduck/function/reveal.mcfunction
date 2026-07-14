@@ -1,0 +1,2 @@
+execute as @a run tellraw @a [{selector:"@s",color:green},"'s ",{text:"prompt was ",color:aqua},{score:{name:"@s",objective:rabbitduck_prompt},color:yellow}]
+execute as @a at @s run playsound entity.player.levelup ui @s
