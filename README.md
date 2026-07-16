@@ -1,4 +1,4 @@
-This is a data pack that gives all players their own unique building prompt, formed from a random verb and a random noun. Idea by [@Cayceee](https://www.youtube.com/@Cayceee).
+This is a data pack that gives all players their own unique building prompt, formed from a random verb and a random noun. Idea by [@Cayceee](https://www.youtube.com/@Cayceee). Made for 26.2 but will likely work several versions back.
 
 | Command | Description |
 | --- | --- |
