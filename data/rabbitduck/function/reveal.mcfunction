@@ -1,0 +1,2 @@
+execute if data storage rabbitduck:settings all{mode:"free_for_all"} run function zzz:rabbitduck/free_for_all/reveal
+execute if data storage rabbitduck:settings all{mode:"impostor"} run function zzz:rabbitduck/impostor/reveal
