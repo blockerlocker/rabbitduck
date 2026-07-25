@@ -1,1 +1,1 @@
-$scoreboard players display numberformat @s rabbitduck_prompt fixed "$(verb) $(noun)"
+$scoreboard players display numberformat @s rabbitduck_prompt fixed "$(adjective) $(noun)"
