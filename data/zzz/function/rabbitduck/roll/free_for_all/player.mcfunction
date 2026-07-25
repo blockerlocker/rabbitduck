@@ -1,4 +1,6 @@
 function zzz:rabbitduck/random_prompt/main
+function zzz:rabbitduck/random_prompt/set_player_prompt with storage rabbitduck:temp all
+data remove storage rabbitduck:temp all
 
 title @s actionbar ""
 title @s title ""
