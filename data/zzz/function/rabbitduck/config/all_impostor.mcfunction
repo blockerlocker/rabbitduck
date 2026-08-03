@@ -1,0 +1,1 @@
+$data modify storage rabbitduck:settings all.all_impostor_chance set value $(chance)

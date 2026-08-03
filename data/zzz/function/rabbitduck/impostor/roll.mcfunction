@@ -13,6 +13,7 @@ execute if score #rabbitduck_roll operator matches 1.. run return run execute as
 
 scoreboard players set @a rabbitduck_prompt 1
 scoreboard players set @a[limit=1,sort=random] rabbitduck_prompt 2
+execute if predicate {type:"minecraft:random_chance",chance:{type:"minecraft:storage",storage:"rabbitduck:settings",path:"all.all_impostor_chance"}} run scoreboard players set @a rabbitduck_prompt 2
 title @a[scores={rabbitduck_prompt=1}] subtitle {score:{name:"*",objective:"rabbitduck_prompt"},color:green}
 title @a[scores={rabbitduck_prompt=2}] subtitle {text:"Impostor",color:red}
 execute as @a at @s run playsound entity.experience_orb.pickup ui @s
